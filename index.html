@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome Icon (>)-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font Awesome Icon (<)-->
+  <!-- Font Family Link (>)-->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <!-- Font Family Link (<)-->
+  <!-- Slick Slider Link (>)-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Slick Slider Link (<)-->
+  <link rel = "icon" href ="images/x-logo.png" type = "Images/x-icon"> 
+	<title>Library</title>
+</head>
+<body>
+  <section id="banner">
+    <div class="banner-section"> 
+      <header>
+        <nav>
+          <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#"><img src="images/logo.png"></a></div>
+            <div class="nav-links">
+              <div class="sidebar-logo">
+                <span class="logo-name"><img src="images/logo.png"></span>
+                <i class='bx bx-x'></i>
+              </div>
+              <ul class="links">
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#popular-cours">Popular Books</a></li>
+                <li><a href="#reasearch-section">Reserch</a></li>
+                <li><a href="#news-section">Reading Books</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+                <li><a  onclick="loginForm()" href="#">Login</a><span>|</span><a onclick="registrationForm()" href="#">Registation</a></li>
+              </ul>
+            </div>
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass bx bx-search"></i>
+              <div class="input-box">
+                <input type="text" placeholder="Search Book Name....">
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="banner-content">
+        <h2>You only have know one thing</h2>
+        <h1>you can learn anything</h1>
+        <h3>FREE EDUCATIONS</h3>
+        <div>
+          <button>Start a Course</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="banner_tab">
+      <div class="tab_menu">
+        <ul>
+           <li><a href="#"><span class="icon"><img src="images/library-liife.png" alt="#"></span><span>Library Life</span></a></li>
+           <li><a onclick="ebooks()" href="#"><span class="icon"><img src="images/ebook.png" alt="#"></span><span>Ebooks</span></a></li>
+           <li><a href="#"><span class="icon"><img src="images/reading.png" alt="#"></span><span>Reading Books</span></a></li>
+           <li><a href="#"><span class="icon"><img src="images/social.png" alt="#"></span><span>Social</span></a></li>
+
+           <li><a href="#"><span class="icon"><i class="fa-solid fa-location-dot"></i></span><span style="color: #fff;">Location</span></a></li>
+           <li><a href="#"><span class="icon"><i class="fa-solid fa-mobile-screen-button"></i></span><span style="color: #fff;">Call us</span></a></li>
+           <li><a href="#"><span class="icon"><i class="fa-solid fa-envelope-open-text"></i></span><span style="color: #fff;">Email</span></a></li>
+        </ul>
+      </div>
+  </section>
+
+  <section id="welcome-section">
+    <div class="welcome-wrapper">
+        <h1>Welcome To <span>Perfect Learn</span></h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <img src="images/welcome.png">
+    </div>
+  </section>
+
+<section id="popular-cours" class="page-width">
+
+  <div class="popular-heading">
+    <h1>Popular Books</h1>
+    <img src="images/heading_main_border.png">
+  </div>
+
+  <div class="popular-cours-wrapper">
+      <div class="course-col course-col-1">
+        <img src="images/popular1.jpg">
+        <h4>HAPPY POTTAL</h4>
+      </div>
+      <div class="course-col course-col-2">
+        <img src="images/popular2.jpg">
+        <h4>HAPPY POTTAL</h4>
+      </div>
+      <div class="course-col course-col-3">
+        <img src="images/popular3.jpg">
+        <h4>HAPPY POTTAL</h4>
+      </div>
+  </div>
+  <div class="read-more">
+    <button>Read More</button>
+  </div>
+</section>
+
+ <section id="welcome-education-wrapper" class="page-width">
+        <div class="welcome-education-content">
+            <div class="wce-edcn-cotnt wce-edcn-cotnt-1">
+                <h2>Welcome To Library</h2>
+                <img id="border_png" src="images/heading_main_border.png">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <button>About More</button>
+            </div>
+            <div class="wce-edcn-cotnt wce-edcn-cotnt-2">
+                <div class="wce-inner-txt-col-2">
+                    <h3>Best Library</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="news-section">
+
+  <div class="news-content">
+    <div class="news-heading">
+      <h1>Reading Books Students</h1>
+      <img src="images/heading_main_border.png">
+    </div>
+    <div class="inner-contant page-width">
+      <div class="col-news col-news-1">
+        <img src="images/news1.jpg" alt="#">
+        <div>
+          <h2>Reading Book</h2>
+          <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+      <div class="col-news col-news-2">
+        <img src="images/news2.jpg" alt="#">
+        <div>
+          <h2>Reading Book</h2>
+          <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+      <div class="col-news col-news-3">
+        <img src="images/news1.jpg" alt="#">
+        <div>
+          <h2>Reading Book</h2>
+          <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+      <div class="col-news col-news-4">
+        <img src="images/news2.jpg" alt="#">
+        <div>
+          <h2>Reading Book</h2>
+          <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+            <div class="col-news col-news-3">
+        <img src="images/news1.jpg" alt="#">
+        <div>
+          <h2>Reading Book</h2>
+          <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+      <div class="col-news col-news-4">
+        <img src="images/news2.jpg" alt="#">
+        <div>
+          <h2>Reading Book</h2>
+          <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="join-now-section">
+    <div class="join-now-content">
+        <div class="join-now-col join-now-col-1">
+          <video controls>
+              <source src="images/vdo.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="join-now-col join-now-col-2">
+            <h4>Join 29,12,093 Students.</h4>
+            <button onclick="getTheTouch()">Join Now</button>
+        </div>
+    </div>
+</section> 
+<section id="count-section">
+  <div class="count-content">
+      <div class="count-col count-col-1">
+          <h3>80</h3>
+          <p>PROFESSIONAL STUDENTS</p>
+      </div>
+      <div class="count-col count-col-2">
+          <h3>20</h3>
+          <p>NEW BOOKS EVERY YEAR</p>
+      </div>
+      <div class="count-col count-col-3">
+          <h3>20</h3>
+          <p>NEW BOOKS EVERY YEAR</p>
+      </div>
+      <div class="count-col count-col-4">
+          <h3>789</h3>
+          <p>REGISTERED STUDENTS</p>
+      </div>
+  </div>
+</section> 
+<section id="compus-section">
+  <div class="compus-heading">
+    <h1>Featured Books</h1>
+    <img src="images/heading_main_border.png">
+  </div>
+    <div class="logos-wrapper">
+
+        <div>
+            <img src="images/book1.jpg">
+        </div>
+        <div>
+            <img src="images/book2.png">
+        </div>
+        <div>
+           <img src="images/book3.png">
+        </div>
+        <div>
+            <img src="images/book4.png">
+        </div>
+        <div>
+            <img src="images/book5.jpg">
+        </div>
+        <div>
+            <img src="images/book6.png">
+        </div>
+        <div>
+            <img src="images/book7.png">
+        </div>
+        <div>
+            <img src="images/book8.jpg">
+        </div>
+        <div>
+            <img src="images/book9.jpg">
+        </div>
+        <div>
+            <img src="images/book10.jpg">
+        </div>
+        <div>
+            <img src="images/book11.jpg">
+        </div>
+        <div>
+            <img src="images/book12.jpg">
+        </div>
+        <div>
+            <img src="images/book13.jpg">
+        </div>
+        <div>
+            <img src="images/boo14.jpg">
+        </div>
+        <div>
+            <img src="images/book15.jpg">
+        </div>
+    </div>
+</section>
+<section id="apply-admission">
+    <div class="appy-adson-content">
+      <div class="appy-adson-col appy-adson-col-1">
+      </div>
+      <div class="appy-adson-col appy-adson-col-2">
+        <h3>Apply for Admission</h3>
+        <span>Fall 2019 applications are now open</span>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text, it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <button onclick="registrationForm()">Apply</button>
+      </div>
+    </div>
+  </section>
+  
+  <section id="reasearch-section">
+      <div class="research-inner-content page-width">
+         <div class="research-col research-col-1">
+            <h1>Reasearch</h1>
+            <img src="images/heading_main_border.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <button>See More</button>
+         </div>
+         <div class="research-col research-col-2">
+            
+         </div>
+      </div>
+   </section>
+  
+  <section id="contact-section">
+        <div class="contact-heading">
+            <h1>Contact</h1>
+            <img src="images/heading_main_border.png">
+        </div>
+        <div class="contact-inner-content">
+            <form action="#" method="get" id="contact-inputs">
+                <input type="text" id="contact-name" placeholder="Your Name">
+                <input type="email" id="contact-email" placeholder="Email Address">
+                <input type="text" id="contact-number" placeholder="Phone Number">
+                <textarea type="text" id="contact-message" placeholder="Message" rows="4" cols="50"></textarea>
+                <button id="contact-btn">SEND</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>About us</h2>
+          <div class="content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-solid fa-location-dot"></span>
+              <span class="text">Nagpur Maharashtra</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-solid fa-phone"></span>
+              <span class="text">+91 8379010643</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-solid fa-envelope"></span>
+              <span class="text">polsing@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="right box">
+          <h2>Google Map</h2>
+          <div class="content">
+            <iframe style="position: absolute;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238129.60363035413!2d78.93242128873688!3d21.161348397202804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1659662877010!5m2!1sen!2sin" width="230" height="106" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img style="height:170px; position: absolute; top: 25px;" src="images/top-pic4.png">
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="credit">Created By <a href="#">Java Master Class</a> | </span>
+          <span class="far fa-copyright"></span><span> 2022 All rights reserved.</span>
+        </center>
+      </div>
+    </footer>
+<script src="js/script.js"></script>
+
+
+<script>
+  $('.inner-contant').slick({
+    dots: false,
+    infinite: false,
+    autoplay:true,
+    autoplaySpeed:2000,
+    arrows: true,
+        prevArrow:"<button type='button' class='news-prev-btn'><img src='images/left-arrow.png'></button>",
+        nextArrow:"<button type='button' class='news-next-btn'><img src='images/right-arrow.png'></button>",
+    speed: 300,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+
+
+
+  $('.logos-wrapper').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  autoplay:true,
+  autoplaySpeed:500,
+  speed: 1000,
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
+</body>
+</html>
